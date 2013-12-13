@@ -20,6 +20,7 @@
 		6636E7931852B0BD007DCD3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6636E7911852B0BD007DCD3F /* InfoPlist.strings */; };
 		6636E7951852B0BD007DCD3F /* FRPHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636E7941852B0BD007DCD3F /* FRPHelperTests.m */; };
 		6636E79F1852B307007DCD3F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6636E79E1852B307007DCD3F /* Storyboard.storyboard */; };
+		6636E7A21852BBA2007DCD3F /* TDLFRPSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636E7A11852BBA2007DCD3F /* TDLFRPSkill.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		6636E7921852B0BD007DCD3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6636E7941852B0BD007DCD3F /* FRPHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRPHelperTests.m; sourceTree = "<group>"; };
 		6636E79E1852B307007DCD3F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		6636E7A01852BBA2007DCD3F /* TDLFRPSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLFRPSkill.h; sourceTree = "<group>"; };
+		6636E7A11852BBA2007DCD3F /* TDLFRPSkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLFRPSkill.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				6636E7811852B0BC007DCD3F /* Images.xcassets */,
 				6636E7761852B0BC007DCD3F /* Supporting Files */,
 				6636E79E1852B307007DCD3F /* Storyboard.storyboard */,
+				6636E7A01852BBA2007DCD3F /* TDLFRPSkill.h */,
+				6636E7A11852BBA2007DCD3F /* TDLFRPSkill.m */,
 			);
 			path = FRPHelper;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6636E77C1852B0BC007DCD3F /* main.m in Sources */,
+				6636E7A21852BBA2007DCD3F /* TDLFRPSkill.m in Sources */,
 				6636E7801852B0BC007DCD3F /* TDLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
