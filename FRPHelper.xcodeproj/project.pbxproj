@@ -21,6 +21,9 @@
 		6636E7951852B0BD007DCD3F /* FRPHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636E7941852B0BD007DCD3F /* FRPHelperTests.m */; };
 		6636E79F1852B307007DCD3F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6636E79E1852B307007DCD3F /* Storyboard.storyboard */; };
 		6636E7A21852BBA2007DCD3F /* TDLFRPSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636E7A11852BBA2007DCD3F /* TDLFRPSkill.m */; };
+		66AED620185A921900BFED52 /* TDLFRPCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AED61F185A921900BFED52 /* TDLFRPCharacter.m */; };
+		66AED623185AE3B800BFED52 /* TDLSkillCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AED622185AE3B800BFED52 /* TDLSkillCollectionViewCell.m */; };
+		66AED626185AE4B900BFED52 /* TDLCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AED625185AE4B900BFED52 /* TDLCharacterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		6636E79E1852B307007DCD3F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		6636E7A01852BBA2007DCD3F /* TDLFRPSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLFRPSkill.h; sourceTree = "<group>"; };
 		6636E7A11852BBA2007DCD3F /* TDLFRPSkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLFRPSkill.m; sourceTree = "<group>"; };
+		66AED61E185A921900BFED52 /* TDLFRPCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLFRPCharacter.h; sourceTree = "<group>"; };
+		66AED61F185A921900BFED52 /* TDLFRPCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLFRPCharacter.m; sourceTree = "<group>"; };
+		66AED621185AE3B800BFED52 /* TDLSkillCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLSkillCollectionViewCell.h; sourceTree = "<group>"; };
+		66AED622185AE3B800BFED52 /* TDLSkillCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLSkillCollectionViewCell.m; sourceTree = "<group>"; };
+		66AED624185AE4B900BFED52 /* TDLCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLCharacterViewController.h; sourceTree = "<group>"; };
+		66AED625185AE4B900BFED52 /* TDLCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLCharacterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				6636E79E1852B307007DCD3F /* Storyboard.storyboard */,
 				6636E7A01852BBA2007DCD3F /* TDLFRPSkill.h */,
 				6636E7A11852BBA2007DCD3F /* TDLFRPSkill.m */,
+				66AED61E185A921900BFED52 /* TDLFRPCharacter.h */,
+				66AED61F185A921900BFED52 /* TDLFRPCharacter.m */,
+				66AED621185AE3B800BFED52 /* TDLSkillCollectionViewCell.h */,
+				66AED622185AE3B800BFED52 /* TDLSkillCollectionViewCell.m */,
+				66AED624185AE4B900BFED52 /* TDLCharacterViewController.h */,
+				66AED625185AE4B900BFED52 /* TDLCharacterViewController.m */,
 			);
 			path = FRPHelper;
 			sourceTree = "<group>";
@@ -250,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6636E77C1852B0BC007DCD3F /* main.m in Sources */,
+				66AED620185A921900BFED52 /* TDLFRPCharacter.m in Sources */,
+				66AED623185AE3B800BFED52 /* TDLSkillCollectionViewCell.m in Sources */,
 				6636E7A21852BBA2007DCD3F /* TDLFRPSkill.m in Sources */,
 				6636E7801852B0BC007DCD3F /* TDLAppDelegate.m in Sources */,
+				66AED626185AE4B900BFED52 /* TDLCharacterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +470,7 @@
 				6636E79A1852B0BD007DCD3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6636E79B1852B0BD007DCD3F /* Build configuration list for PBXNativeTarget "FRPHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +479,7 @@
 				6636E79D1852B0BD007DCD3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
