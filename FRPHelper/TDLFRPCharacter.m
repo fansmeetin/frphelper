@@ -22,7 +22,7 @@
     return [(TDLFRPSkill*)[self.skillArray objectAtIndex:index] skillName];
 }
 
-- (int) skillModifierAtIndex: (int) index {
+- (short) skillModifierAtIndex: (int) index {
     return [(TDLFRPSkill*)[self.skillArray objectAtIndex:index] skillModifier];
 }
 
