@@ -31,7 +31,7 @@
 - (UICollectionViewCell*) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     TDLSkillCollectionViewCell* aCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"skillCollectionCell" forIndexPath:indexPath];
     aCell.skillNameLabel.text = [self.character skillNameAtIndex:indexPath.row];
-    aCell.skillModifierLabel.text = @"%d",[self.character skillModifierAtIndex:indexPath.row];
+    aCell.skillModifierLabel.text = [NSString stringWithFormat:@"%d",[self.character skillModifierAtIndex:indexPath.row]];
     
     return aCell;
 }

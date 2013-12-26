@@ -15,6 +15,6 @@
 - (TDLFRPCharacter*)initWithLevel: (short) level;
 - (NSInteger) skillCount;
 - (NSString*) skillNameAtIndex: (int) index;
-- (int) skillModifierAtIndex: (int) index;
+- (short) skillModifierAtIndex: (int) index;
 
 @end
